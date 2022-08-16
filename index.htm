@@ -37,8 +37,8 @@ body {
 <p id="demo"></p>
 <script>
 <center>
-document.getElementById("demo").innerHTML = 
-"The IP of you host machine is: " + location.hostname;
+let host = location.host;
+document.getElementById("demo").innerHTML = host;
 </center>
 </script>
 
