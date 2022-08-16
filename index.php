@@ -36,7 +36,7 @@ body {
 <body>
 <h1><center>CyberArk Tech Challenge</center></h1>
 <p><center>Your Local IP is: </center></p>
-<p style="text-align:center;" id="demo"></p>
+<p style="text-align:center;"> <? echo $_SERVER["REMOTE_ADDR"]; ?> </p>
 
 </body>
 </html>
