@@ -34,8 +34,11 @@ body {
 <body>
 
 <h1><center>CyberArk Tech Challenge</center></h1>
-<p><center>Your Local IP is: </center></p>
-<p style="text-align:center" id="gfg"></p>
+<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML = 
+"The full URL of this page is:<br>" + window.location.href;
+</script>
 
 </body>
 </html>
